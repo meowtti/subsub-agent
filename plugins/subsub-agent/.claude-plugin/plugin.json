@@ -1,0 +1,13 @@
+{
+  "name": "subsub-agent",
+  "version": "0.1.0",
+  "description": "서브에이전트 지시문 뼈대(스킬) + 빠진 줄을 막는 문지기(훅) + 편집 도구를 뺀 감사 일꾼(에이전트)",
+  "author": {
+    "name": "meowtti",
+    "url": "https://github.com/meowtti"
+  },
+  "homepage": "https://github.com/meowtti/subsub-agent",
+  "repository": "https://github.com/meowtti/subsub-agent",
+  "license": "MIT",
+  "keywords": ["subagent", "hooks", "review", "audit", "prompt"]
+}

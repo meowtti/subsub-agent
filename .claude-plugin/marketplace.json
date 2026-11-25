@@ -1,0 +1,16 @@
+{
+  "name": "subsub-agent",
+  "description": "서브에이전트를 덜 위험하게, 덜 비싸게, 덜 맞장구치게 띄우는 묶음 하나를 담은 장터",
+  "owner": {
+    "name": "meowtti",
+    "url": "https://github.com/meowtti"
+  },
+  "plugins": [
+    {
+      "name": "subsub-agent",
+      "source": "./plugins/subsub-agent",
+      "description": "서브에이전트 지시문 뼈대(스킬) + 빠진 줄을 막는 문지기(훅) + 편집 도구를 뺀 감사 일꾼(에이전트)",
+      "category": "productivity"
+    }
+  ]
+}

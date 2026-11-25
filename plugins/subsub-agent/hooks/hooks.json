@@ -1,0 +1,17 @@
+{
+  "description": "agent_gate — 서브에이전트 지시문에 MODE 줄 · model 칸이 없거나, 작은 모델에 뼈대 문서를 맡기면 막는다",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Agent|Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if python3 -c '' >/dev/null 2>&1; then python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/agent_gate.py\"; else python \"${CLAUDE_PLUGIN_ROOT}/hooks/agent_gate.py\"; fi",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
